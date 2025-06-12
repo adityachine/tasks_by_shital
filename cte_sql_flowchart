@@ -1,0 +1,9 @@
+// CTE SQL Query Flowchart
+digraph {
+	rankdir=LR
+	customer_spending [label=customer_spending]
+	customer_top_category [label=customer_top_category]
+	"Final SELECT" [label="Final SELECT" shape=box]
+	customer_spending -> "Final SELECT"
+	customer_top_category -> "Final SELECT"
+}

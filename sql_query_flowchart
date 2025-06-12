@@ -1,0 +1,6 @@
+// SQL Query Flowchart
+digraph {
+	A [label="SQL Query"]
+	B [label="SELECT Clause"]
+	A -> B
+}

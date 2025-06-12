@@ -1,0 +1,7 @@
+// SQL Query Flow
+digraph {
+	rankdir=LR size="10,6"
+	FINAL_QUERY [label="Final Output" color=green shape=box style=filled]
+	ranked_customers [label=ranked_customers color=lightgrey shape=ellipse style=filled]
+	ranked_customers -> FINAL_QUERY
+}
